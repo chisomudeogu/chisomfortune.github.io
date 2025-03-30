@@ -1,0 +1,109 @@
+body {
+    background-color: #121212;
+    color: white;
+    font-family: Arial, sans-serif;
+    text-align: center;
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    padding: 50px;
+}
+
+.profile-pic {
+    width: 150px;
+    border-radius: 50%;
+    margin: 20px;
+}
+
+nav {
+    margin-top: 30px;
+}
+
+button {
+    background-color: #1e1e1e;
+    color: white;
+    padding: 10px 20px;
+    font-size: 16px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    margin: 10px;
+    transition: 0.3s;
+}
+
+button:hover {
+    background-color: #333;
+}
+.resume-button {
+    background-color: #ff9800;
+    color: black;
+    padding: 12px 24px;
+    font-size: 18px;
+    border: none;
+    border-radius: 8px;
+    cursor: pointer;
+    margin-top: 20px;
+    transition: 0.3s;
+}
+
+.resume-button:hover {
+    background-color: #e68900;
+}
+form {
+    max-width: 400px;
+    margin: 20px auto;
+    display: flex;
+    flex-direction: column;
+}
+
+label {
+    text-align: left;
+    font-weight: bold;
+    margin-bottom: 5px;
+}
+
+input, textarea {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 15px;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+}
+
+.contact-button, .email-button {
+    background-color: #007bff;
+    color: white;
+    padding: 12px 20px;
+    font-size: 16px;
+    border: none;
+    border-radius: 8px;
+    cursor: pointer;
+    transition: 0.3s;
+}
+
+.contact-button:hover, .email-button:hover {
+    background-color: #0056b3;
+}
+.social-links {
+    margin-top: 20px;
+    text-align: center;
+}
+
+.social-links a {
+    margin: 0 10px;
+    display: inline-block;
+}
+
+.social-links img {
+    width: 40px;
+    height: 40px;
+    filter: invert(1);
+    transition: 0.3s;
+}
+
+.social-links img:hover {
+    transform: scale(1.1);
+
+}
